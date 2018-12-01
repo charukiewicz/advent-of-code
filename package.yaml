@@ -1,0 +1,22 @@
+name:                advent-of-code
+version:             0.1.0.0
+github:              "charukiewicz/advent-of-code-2018"
+license:             MIT
+author:              "Christian Charukiewicz"
+maintainer:          "charukiewicz@protonmaill.com"
+copyright:           "2018 Christian Charukiewicz"
+
+extra-source-files:
+- README.md
+
+description:         Please see the README on GitHub at <https://github.com/charukiewicz/advent-of-code-2018>
+
+dependencies:
+- base >= 4.7 && < 5
+
+executables:
+  day-01:
+    main:                Day01.hs
+    source-dirs:         day-01
+    ghc-options:
+    - -main-is Day01

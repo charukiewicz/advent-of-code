@@ -1,20 +1,36 @@
-name:                advent-of-code
-version:             0.1.0.0
--- synopsis:
--- description:
-license:             MIT
-license-file:        LICENSE
-author:              Christian Charukiewicz
-maintainer:          charukiewicz@protonmail.com
--- copyright:
--- category:
-build-type:          Simple
--- extra-source-files:  CHANGELOG.md
-cabal-version:       >=1.10
+cabal-version: 1.12
 
-executable Day01
-  main-is:             Day01.hs
-  build-depends:       base >=4.10 && <4.13
-  hs-source-dirs:      day-01
-  default-language:    Haskell2010
-  ghc-options:		   -main-is Day01
+-- This file has been generated from package.yaml by hpack version 0.31.0.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: 6a9813840d79abece8df2ea1b6f2bdc157b91d4a99127edadc87037c0b228a36
+
+name:           advent-of-code
+version:        0.1.0.0
+description:    Please see the README on GitHub at <https://github.com/charukiewicz/advent-of-code-2018>
+homepage:       https://github.com/charukiewicz/advent-of-code-2018#readme
+bug-reports:    https://github.com/charukiewicz/advent-of-code-2018/issues
+author:         Christian Charukiewicz
+maintainer:     charukiewicz@protonmaill.com
+copyright:      2018 Christian Charukiewicz
+license:        MIT
+license-file:   LICENSE
+build-type:     Simple
+extra-source-files:
+    README.md
+
+source-repository head
+  type: git
+  location: https://github.com/charukiewicz/advent-of-code-2018
+
+executable day-01
+  main-is: Day01.hs
+  other-modules:
+      Paths_advent_of_code
+  hs-source-dirs:
+      day-01
+  ghc-options: -main-is Day01
+  build-depends:
+      base >=4.7 && <5
+  default-language: Haskell2010
