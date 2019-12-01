@@ -1,6 +1,4 @@
-Advent of Code 2018
-===================
+Advent of Code
+==============
 
-Daily code challenges during December of 2018.
-
-[https://adventofcode.com/2018](https://adventofcode.com/2018)
+https://adventofcode.com/

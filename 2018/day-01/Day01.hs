@@ -4,7 +4,7 @@ import           Data.Function ( (&) )
 
 main :: IO ()
 main = do
-    frequencies <- readFile "frequencies.txt"
+    frequencies <- readFile "data/day-01-frequencies.txt"
     let frequencyList = cleanFrequencyInput frequencies
         resultingFrequency = sum frequencyList
         repeatedFrequency = findRepeatedFreq $ cycle frequencyList
